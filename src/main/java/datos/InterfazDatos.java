@@ -1,2 +1,5 @@
-package datos;public interface InterfazDatos {
+package datos;
+
+public interface InterfazDatos {
+    boolean isStuck();
 }

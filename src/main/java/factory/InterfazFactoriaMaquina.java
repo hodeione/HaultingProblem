@@ -3,6 +3,6 @@ package factory;
 import datos.InterfazDatos;
 import maquina.InterfazMaquina;
 
-public abstract class FactoriaMaquina {
+public interface  InterfazFactoriaMaquina {
     InterfazMaquina crearMaquina(InterfazDatos datos);
 }

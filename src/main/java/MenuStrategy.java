@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface MenuStrategy {
+public interface MenuStrategy {
+    void ejecutar();
 }

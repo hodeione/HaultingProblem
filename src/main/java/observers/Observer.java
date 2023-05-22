@@ -1,2 +1,5 @@
-package observers;public interface Observer {
+package observers;
+
+public interface Observer {
+    void update();
 }
